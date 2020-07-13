@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  /* grid-template-rows: 400px; */
+  /* padding: 20px; */
+  width: 100vw;
+  height: 100vh;
+}
+.resultado {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: black;
+  line-height: 5;
+  text-align: end;
+  height: 50px;
+}
+.teclas {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+.section {
+  padding: 5px 20px;
+  border: 1px solid black;
+}
+.section.cuatro .n0 {
+  width: 85px;
+}
+button {
+  padding: 10px;
+  width: 40px;
+  border: transparent;
+  transition: all 0.4s;
+  outline: none;
+}
+button:active {
+  transform: scale(0.9);
+  border: transparent;
+}
+button:hover {
+  background: rgba(0, 0, 0, 0.3);
+  border: transparent;
+}
